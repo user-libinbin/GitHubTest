@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Bisearch {
 	public static Scanner sc = new Scanner(System.in);
 	public static void main(String... args) {
-		
 		int[] arr = {1,2,3,4,5,6,7,8,9};
 		
 		System.out.println(myBisearch(arr));
@@ -15,7 +14,7 @@ public class Bisearch {
 		int min = 0;
 		int max = arr.length-1;
 		int mid = max/2;
-		System.out.println("ÊäÈëÒª²éÕÒµÄÊıÖµ");
+		System.out.println("è¾“å…¥è¦æŸ¥æ‰¾çš„æ•°å€¼");
 		int value = sc.nextInt();
 		while(arr[mid] != value && max>min){
 			if(arr[mid] > value) {
@@ -32,7 +31,7 @@ public class Bisearch {
 		return mid;
 	}
 	
-	/**13¡¢Ñî»ÔÈı½ÇĞÎ*/
+	/**13ã€æ¨è¾‰ä¸‰è§’å½¢*/
 	public static void arr26() {
 		int a = sc.nextInt();
 		int[][] arr = new int[a][];
